@@ -87,7 +87,7 @@ h1 {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  animation: fade_in 3s;
+  animation: slide_from_left_top 5s;
 }
 .main .info_right {
   position: absolute;
@@ -95,7 +95,7 @@ h1 {
   top: 50%;
   left: 50%;
   transform: translate(-25%, -50%);
-  animation: slide_from_left_header 5s;
+  animation: slide_from_left_header 10s;
 }
 .main .info_right h1 {
   color: white;
@@ -127,5 +127,13 @@ h1 {
   }
   to {
     left: 50%;
+  }
+}
+@keyframes slide_in_from_top {
+  from {
+    top: -100%;
+  }
+  to {
+    top: 0;
   }
 }
