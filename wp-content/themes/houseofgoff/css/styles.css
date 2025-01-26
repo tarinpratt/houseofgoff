@@ -90,8 +90,9 @@ h1 {
   animation: slide_in_from_top 5s;
 }
 .main .welcome_header {
-  position: relative;
+  position: absolute;
   height: 100%;
+  width: 100%;
 }
 .main .welcome_header .info_right {
   position: absolute;
