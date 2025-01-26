@@ -94,7 +94,7 @@ h1 {
   width: 50%;
   top: 50%;
   left: 50%;
-  transform: translate(-25%, -140%);
+  transform: translate(-25%, -125%);
   animation: slide_from_left_header 10s;
 }
 .main .info_right h1 {
@@ -114,6 +114,9 @@ h1 {
   padding: 15px;
   display: block;
   margin: 0 auto;
+}
+.main #metaslider-id-184 {
+  max-width: 400px;
 }
 @keyframes fade_in {
   0% {
