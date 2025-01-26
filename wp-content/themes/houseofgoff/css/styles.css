@@ -76,6 +76,8 @@ h1 {
 }
 .main {
   position: relative;
+  background-color: #5c7457;
+  height: 100vw;
 }
 .main .featured_img {
   max-width: 1440px;
