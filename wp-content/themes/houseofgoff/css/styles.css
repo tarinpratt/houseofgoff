@@ -76,6 +76,7 @@ h1 {
 }
 .main {
   position: relative;
+  padding-bottom: 400px;
 }
 .main .featured_img {
   max-width: 1440px;
