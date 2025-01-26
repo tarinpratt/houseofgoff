@@ -5,4 +5,6 @@
  
     add_action('wp_enqueue_scripts', 'houseofgoff_files');
 
+    add_theme_support( 'post-thumbnails', array( 'post', 'page' ) );
+
 ?>
