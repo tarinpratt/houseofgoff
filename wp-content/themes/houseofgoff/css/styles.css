@@ -87,7 +87,7 @@ h1 {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  animation: slide_from_left_top 5s;
+  animation: slide_in_from_top 5s;
 }
 .main .info_right {
   position: absolute;
