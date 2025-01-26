@@ -107,11 +107,13 @@ h1 {
   font-size: 7vw;
   letter-spacing: 3px;
 }
-.main p {
+.main .detailed_copy p {
   font-family: 'Mona Sans', Helvetica, sans-serif;
   text-align: center;
   line-height: 1.5;
   padding: 15px;
+  display: block;
+  margin: 0 auto;
 }
 @keyframes fade_in {
   0% {
