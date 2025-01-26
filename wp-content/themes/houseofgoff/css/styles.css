@@ -100,7 +100,7 @@ h1 {
   width: 50%;
   top: 50%;
   left: 50%;
-  transform: translate(-25%, -50%);
+  transform: translate(-25%, -15%);
   animation: slide_from_left_header 10s;
 }
 .main .welcome_header .info_right h1 {
