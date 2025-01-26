@@ -103,20 +103,21 @@ h1 {
 
 .main {
     padding-bottom: 400px;
+    .featured_img {
+        max-width: 1440px;
+        display: block;
+        margin: 0 auto;
+        position: relative;
+        width:100%;
+        padding-bottom: 100%;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        animation: slide_in_from_top 5s;
+    }
     .welcome_header {
         position: relative;
-        .featured_img {
-            max-width: 1440px;
-            display: block;
-            margin: 0 auto;
-            position: relative;
-            width:100%;
-            padding-bottom: 100%;
-            background-position: center;
-            background-size: contain;
-            background-repeat: no-repeat;
-            animation: slide_in_from_top 5s;
-        }
+        height: 100%;
         .info_right {
             position: absolute;
             width: 50%;
