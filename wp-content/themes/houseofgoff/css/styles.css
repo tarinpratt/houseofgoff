@@ -96,6 +96,10 @@ h1 {
   color: white;
   font-size: 10vw;
 }
+.main .info_right h2 {
+  color: white;
+  font-family: 'Pinyon Script', cursive;
+}
 @keyframes fade_in {
   0% {
     opacity: 0.5;
