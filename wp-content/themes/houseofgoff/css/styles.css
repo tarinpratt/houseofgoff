@@ -95,6 +95,11 @@ h1 {
   width: 100%;
   top: 0;
 }
+@media screen and (max-width: 768px) {
+  .main .welcome_header {
+    height: 20vh;
+  }
+}
 .main .welcome_header .info_right {
   position: absolute;
   width: 50%;
