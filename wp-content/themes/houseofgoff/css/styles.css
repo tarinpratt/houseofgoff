@@ -92,6 +92,9 @@ h1 {
 .main .info_right {
   position: absolute;
   width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-25%, -50%);
   animation: slide_from_left_header 5s;
 }
 .main .info_right h1 {
@@ -116,8 +119,6 @@ h1 {
     left: -100%;
   }
   to {
-    top: 50%;
     left: 50%;
-    transform: translate(-25%, -50%);
   }
 }
