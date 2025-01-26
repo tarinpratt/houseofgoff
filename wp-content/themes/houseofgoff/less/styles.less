@@ -116,11 +116,7 @@ h1 {
         animation: fade_in 3s;
     }
     .info_right {
-        position: absolute;
-        width: 50%;
-        top: 50%;
-        left: 50%;
-        animation: slide_from_left 5s;
+        animation: slide_from_left_header 5s;
         h1 {
             color: white;
             font-size: 10vw;
@@ -138,11 +134,15 @@ h1 {
         opacity: 1; 
     }
   }
-  @keyframes slide_from_left {
+  @keyframes slide_from_left_header {
     from {
       transform: translateX(-100%);
     }
     to {
+        position: absolute;
+        width: 50%;
+        top: 50%;
+        left: 50%;
         transform: translate(-25%, -50%);
     }
   }
