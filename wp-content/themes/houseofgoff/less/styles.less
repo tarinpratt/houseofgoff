@@ -102,38 +102,42 @@ h1 {
 }
 
 .main {
-    position: relative;
     padding-bottom: 400px;
-    .featured_img {
-        max-width: 1440px;
-        display: block;
-        margin: 0 auto;
+    .welcome_header {
         position: relative;
-        width:100%;
-        padding-bottom: 100%;
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
-        animation: slide_in_from_top 5s;
-    }
-    .info_right {
-        position: absolute;
-        width: 50%;
-        top: 50%;
-        left: 50%;
-        transform: translate(-25%, -65%);
-        animation: slide_from_left_header 10s;
-        h1 {
-            color: white;
-            font-size: 10vw;
-            font-weight: 500;
-            line-height: 1.2;
+        .featured_img {
+            max-width: 1440px;
+            display: block;
+            margin: 0 auto;
+            position: relative;
+            width:100%;
+            padding-bottom: 100%;
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            animation: slide_in_from_top 5s;
         }
-        h2 {
-            color: white;
-            font-family: 'Pinyon Script', Helvetica, sans-serif;
-            font-size: 7vw;
-            letter-spacing: 3px;
+        .info_right {
+            position: absolute;
+            width: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-25%, -65%);
+            animation: slide_from_left_header 10s;
+            h1 {
+                color: white;
+                font-size: 10vw;
+                font-weight: 500;
+                line-height: 1.2;
+                margin-bottom: 0;
+            }
+            h2 {
+                color: white;
+                font-family: 'Pinyon Script', Helvetica, sans-serif;
+                font-size: 7vw;
+                letter-spacing: 3px;
+                margin-top: 0;
+            }
         }
     }
     .detailed_copy {

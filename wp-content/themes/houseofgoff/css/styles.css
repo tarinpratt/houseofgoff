@@ -75,10 +75,12 @@ h1 {
   font-family: 'Cinzel Decorative', Times, serif;
 }
 .main {
-  position: relative;
   padding-bottom: 400px;
 }
-.main .featured_img {
+.main .welcome_header {
+  position: relative;
+}
+.main .welcome_header .featured_img {
   max-width: 1440px;
   display: block;
   margin: 0 auto;
@@ -90,7 +92,7 @@ h1 {
   background-repeat: no-repeat;
   animation: slide_in_from_top 5s;
 }
-.main .info_right {
+.main .welcome_header .info_right {
   position: absolute;
   width: 50%;
   top: 50%;
@@ -98,17 +100,19 @@ h1 {
   transform: translate(-25%, -65%);
   animation: slide_from_left_header 10s;
 }
-.main .info_right h1 {
+.main .welcome_header .info_right h1 {
   color: white;
   font-size: 10vw;
   font-weight: 500;
   line-height: 1.2;
+  margin-bottom: 0;
 }
-.main .info_right h2 {
+.main .welcome_header .info_right h2 {
   color: white;
   font-family: 'Pinyon Script', Helvetica, sans-serif;
   font-size: 7vw;
   letter-spacing: 3px;
+  margin-top: 0;
 }
 .main .detailed_copy p {
   font-family: 'Mona Sans', Helvetica, sans-serif;
