@@ -2,7 +2,7 @@
     while(have_posts()) {
         the_post(); ?>
         <h1><?= the_title(); ?></h1>
-        <div class="featured_img" style="background-image: url('<?=the_post_thumbnail();?>');"></div>        
+        <div class="featured_img" style="background-image: url('<?=the_post_thumbnail_url();?>');"></div>        
         <?php 
         the_content(); 
         ?>
