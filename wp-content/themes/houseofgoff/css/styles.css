@@ -74,3 +74,11 @@ textarea {
 h1 {
   font-family: 'Cinzel Decorative', Times, serif;
 }
+.featured_img {
+  max-width: 1440px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  padding-bottom: 42%;
+}
