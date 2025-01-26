@@ -1,10 +1,12 @@
 <?php get_header();
     while(have_posts()) {
         the_post(); ?>
+        <div class="main">
         <div class="featured_img" style="background-image: url('<?=the_post_thumbnail_url();?>');"></div>        
         <?php 
         the_content(); 
         ?>
+        </div>
 <?php }
 get_footer();
 ?>
