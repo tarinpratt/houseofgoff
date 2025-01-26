@@ -100,7 +100,7 @@ h1 {
 }
 .main .info_right h2 {
   color: white;
-  font-family: 'Pinyon Script', cursive;
+  font-family: 'Pinyon Script', Helvetica, sans-serif;
   font-size: 7vw;
 }
 @keyframes fade_in {
@@ -113,7 +113,7 @@ h1 {
 }
 @keyframes slide_from_left_header {
   from {
-    transform: translateX(-100%);
+    left: -100%;
   }
   to {
     top: 50%;
