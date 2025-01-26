@@ -81,7 +81,7 @@ h1 {
   max-width: 1440px;
   display: block;
   margin: 0 auto;
-  position: absolute;
+  position: relative;
   width: 100%;
   padding-bottom: 100%;
   background-position: center;
@@ -132,10 +132,12 @@ h1 {
   }
 }
 @keyframes slide_in_from_top {
-  from {
-    top: -100%;
+  0% {
+    opacity: 0;
+    transform: translateY(-30px) scale(0.9);
   }
-  to {
-    top: 0;
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
   }
 }
