@@ -133,7 +133,7 @@ h1 {
 }
 @keyframes slide_in_from_top {
   0% {
-    opacity: 0;
+    opacity: 0.5;
     transform: translateY(-30px) scale(0.9);
   }
   100% {
