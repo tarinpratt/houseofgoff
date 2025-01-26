@@ -100,6 +100,8 @@ h1 {
 .main .info_right h1 {
   color: white;
   font-size: 10vw;
+  font-weight: 500;
+  line-height: 1.2;
 }
 .main .info_right h2 {
   color: white;
