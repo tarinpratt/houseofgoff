@@ -157,7 +157,7 @@ header .logo img {
   height: 100%;
   display: block;
   object-position: center;
-  max-width: 250px;
+  max-width: 150px;
 }
 header nav {
   display: flex;
