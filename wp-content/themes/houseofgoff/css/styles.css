@@ -156,6 +156,14 @@ h1 {
   color: #F8F5F2;
   font-family: 'Cinzel Decorative', Times, serif;
 }
+.page_rsvp .main .nf-form-cont .nf-form-fields-required,
+.page_rsvp .main .nf-form-cont .nf-field-label label,
+.page_rsvp .main .nf-form-cont .nf-error-msg,
+.page_rsvp .main .nf-form-cont .nf-field-element ul li label,
+.page_rsvp .main .nf-form-cont .nf-field-element p,
+.page_rsvp .main .nf-form-cont .ninja-forms-field.nf-element option {
+  font-family: 'Mona Sans', Helvetica, sans-serif;
+}
 @keyframes fade_in {
   0% {
     opacity: 0.5;
