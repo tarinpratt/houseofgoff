@@ -180,7 +180,7 @@ header nav a {
   margin: 0 auto;
 }
 .page_in-the-area .main .featured_img {
-  padding-bottom: calc(591.44 / 1127.34 * 100%);
+  padding-bottom: calc(700 / 1000 * 100%);
 }
 .page_rsvp .main {
   padding: 5%;
