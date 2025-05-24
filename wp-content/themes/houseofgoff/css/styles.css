@@ -158,13 +158,23 @@ h1 {
   text-align: center;
   font-size: 40px;
 }
+.page_rsvp .main .nf-form-cont .nf-form-title h3 {
+  margin: 0 auto;
+}
+.page_rsvp .main .nf-form-cont .nf-form-fields-required {
+  color: #F8F5F2;
+  text-align: center;
+}
 .page_rsvp .main .nf-form-cont .nf-form-fields-required,
 .page_rsvp .main .nf-form-cont .nf-field-label label,
 .page_rsvp .main .nf-form-cont .nf-error-msg,
 .page_rsvp .main .nf-form-cont .nf-field-element ul li label,
 .page_rsvp .main .nf-form-cont .nf-field-element p,
-.page_rsvp .main .nf-form-cont .ninja-forms-field.nf-element option {
+.page_rsvp .main .nf-form-cont .ninja-forms-field.nf-element option,
+.page_rsvp .main .nf-form-cont .nf-field-label span,
+.page_rsvp .main .nf-form-cont .nf-field-description p {
   font-family: 'Mona Sans', Helvetica, sans-serif;
+  color: #B74C2F;
 }
 .page_rsvp .main .nf-form-cont .ninja-forms-field.nf-element {
   border-radius: 8px;
