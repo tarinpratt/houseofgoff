@@ -157,7 +157,7 @@ header .header_container {
   width: 100%;
 }
 header .logo {
-  padding: 10px;
+  padding: 20px;
 }
 header .logo img {
   object-fit: contain;
@@ -165,7 +165,7 @@ header .logo img {
   height: 100%;
   display: block;
   object-position: center;
-  max-width: 100px;
+  max-width: 70px;
 }
 header nav {
   display: flex;
@@ -187,6 +187,11 @@ header nav a {
   padding-bottom: calc(400 / 1000 * 100%);
   background-size: cover;
   max-width: 1000px;
+}
+@media screen and (max-width: 768px) {
+  .page_in_the_area .main .featured_img {
+    padding-bottom: calc(500 / 1000 * 100%);
+  }
 }
 .page_in_the_area .main .content {
   padding: 0 5%;
