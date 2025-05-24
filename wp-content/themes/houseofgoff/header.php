@@ -16,8 +16,8 @@
         <div class="header_container">
         <div class="logo"><a href="/"><img src="/wp-content/uploads/2025/05/Hoppily-ever-After_circular-1.png" alt="hoppily ever after Tarin and Adam 11 14 25 logo" /></a></div>
         <nav>
-        <a href="/rsvp">RSVP</a> |
-        <a href="/in-the-area">In The Area</a> |
+        <a href="/rsvp">RSVP</a>
+        <a href="/in-the-area">In The Area</a>
         </nav>
         </div>
     </header>
