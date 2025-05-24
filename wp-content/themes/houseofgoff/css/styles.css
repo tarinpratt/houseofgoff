@@ -174,15 +174,13 @@ header nav a {
   padding: 25% 20px 0 0;
   font-family: 'Cinzel Decorative', Times, serif;
 }
-.page_in_the_area {
-  background-color: #B74C2F;
-}
 .page_in_the_area .main {
   max-width: 1440px;
   margin: 0 auto;
 }
 .page_in_the_area .main .featured_img {
-  padding-bottom: calc(700 / 1000 * 100%);
+  padding-bottom: calc(600 / 1000 * 100%);
+  background-size: cover;
 }
 .page_in_the_area .main .content {
   padding: 5%;
@@ -191,7 +189,7 @@ header nav a {
 }
 .page_in_the_area .main .content h1 {
   text-align: center;
-  color: #2C3E50;
+  color: #B74C2F;
   font-size: 8vh;
 }
 @media screen and (min-width: 1023px) {
