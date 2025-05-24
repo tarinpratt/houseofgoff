@@ -213,6 +213,7 @@ header {
 
 // IN the area page
 .page_in_the_area {
+    background-color: @rust;
     .main {
         max-width: 1440px;
         margin: 0 auto;
@@ -223,6 +224,17 @@ header {
             padding: 5%;
             max-width: 800px;
             margin: 0 auto;
+            h1 {
+                text-align: center;
+                color: @blue;
+                font-size: 8vh;
+                @media screen and (min-width: @t_max) {
+                    font-size: 60px;
+                }
+                @media screen and (max-width: @m_max) {
+                    font-size: 30px;
+                }
+            }
         }
     }
 }
