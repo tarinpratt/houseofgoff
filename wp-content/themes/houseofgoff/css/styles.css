@@ -152,13 +152,15 @@ h1 {
   padding: 30px;
   border-radius: 8px;
 }
-.page_rsvp .main .nf-form-cont .nf-form-title {
+.page_rsvp .main .nf-form-cont .nf-form-title,
+.page_rsvp .main .nf-form-cont .nf-field-element h2 {
   color: #F8F5F2;
   font-family: 'Cinzel Decorative', Times, serif;
   text-align: center;
   font-size: 40px;
 }
-.page_rsvp .main .nf-form-cont .nf-form-title h3 {
+.page_rsvp .main .nf-form-cont .nf-form-title h3,
+.page_rsvp .main .nf-form-cont .nf-field-element h2 h3 {
   margin: 0 auto;
 }
 .page_rsvp .main .nf-form-cont .nf-form-fields-required {
@@ -176,6 +178,10 @@ h1 {
   font-family: 'Mona Sans', Helvetica, sans-serif;
   color: #562a02;
   font-weight: 600;
+}
+.page_rsvp .main .nf-form-cont .nf-field-label label {
+  font-weight: 700;
+  font-size: 24px;
 }
 .page_rsvp .main .nf-form-cont .ninja-forms-field.nf-element {
   border-radius: 8px;
