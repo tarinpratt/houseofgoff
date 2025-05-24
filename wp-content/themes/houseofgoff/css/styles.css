@@ -140,7 +140,7 @@ h1 {
   max-width: 400px;
 }
 .page_rsvp .main {
-  padding: 30px;
+  padding: 5%;
 }
 .page_rsvp .main .featured_img {
   display: none;
@@ -149,7 +149,7 @@ h1 {
   background-color: #A8BBA2;
   max-width: 800px;
   margin: 0 auto;
-  padding: 30px;
+  padding: 30px 10%;
   border-radius: 8px;
 }
 .page_rsvp .main .nf-form-cont .nf-field-container {
@@ -160,16 +160,38 @@ h1 {
   color: #F8F5F2;
   font-family: 'Cinzel Decorative', Times, serif;
   text-align: center;
-  font-size: 60px;
+  font-size: 3vh;
   margin-bottom: 0;
   filter: drop-shadow(2px 4px 6px grey);
+}
+@media screen and (min-width: 1300px) {
+  .page_rsvp .main .nf-form-cont .nf-form-title,
+  .page_rsvp .main .nf-form-cont .nf-field-element h2 {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .page_rsvp .main .nf-form-cont .nf-form-title,
+  .page_rsvp .main .nf-form-cont .nf-field-element h2 {
+    font-size: 18px;
+  }
 }
 .page_rsvp .main .nf-form-cont .nf-form-title h3,
 .page_rsvp .main .nf-form-cont .nf-field-element h2 h3 {
   margin: 0 auto;
 }
 .page_rsvp .main .nf-form-cont .nf-form-title {
-  font-size: 70px;
+  font-size: 4vh;
+}
+@media screen and (min-width: 1300px) {
+  .page_rsvp .main .nf-form-cont .nf-form-title {
+    font-size: 70px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .page_rsvp .main .nf-form-cont .nf-form-title {
+    font-size: 20px;
+  }
 }
 .page_rsvp .main .nf-form-cont .nf-form-fields-required {
   color: #F8F5F2;

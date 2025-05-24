@@ -178,7 +178,7 @@ h1 {
 // RSVP Page
 .page_rsvp {
     .main {
-        padding: 30px;
+        padding: 5%;
         .featured_img {
             display: none;
         }
@@ -186,7 +186,7 @@ h1 {
             background-color: @green;
             max-width: 800px;
             margin: 0 auto;
-            padding: 30px;
+            padding: 30px 10%;
             border-radius: 8px;
             .nf-field-container {
                 margin-bottom: 0;
@@ -196,15 +196,27 @@ h1 {
                 color: @ivory;
                 font-family: 'Cinzel Decorative', Times, serif;
                 text-align: center;
-                font-size: 60px;
+                font-size: 3vh;
                 margin-bottom: 0;
                 filter: drop-shadow(2px 4px 6px grey);
+                @media screen and (min-width: 1300px) {
+                    font-size: 60px;
+                }
+                @media screen and (max-width: @m_max) {
+                    font-size: 18px;
+                }
                 h3 {
                     margin: 0 auto;
                 }
             }
             .nf-form-title {
-                font-size: 70px;
+                font-size: 4vh;
+                @media screen and (min-width: 1300px) {
+                    font-size: 70px;
+                }
+                @media screen and (max-width: @m_max) {
+                    font-size: 20px;
+                }
             }
             .nf-form-fields-required {
                 color: @ivory;
