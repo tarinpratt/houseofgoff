@@ -175,12 +175,16 @@ header nav a {
   font-family: 'Cinzel Decorative', Times, serif;
 }
 .page_in_the_area .main {
-  padding: 5%;
-  max-width: 800px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 .page_in_the_area .main .featured_img {
   padding-bottom: calc(700 / 1000 * 100%);
+}
+.page_in_the_area .main .content {
+  padding: 5%;
+  max-width: 800px;
+  margin: 0 auto;
 }
 .page_rsvp .main {
   padding: 5%;
