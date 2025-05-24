@@ -208,8 +208,15 @@ h1 {
   font-family: 'Mona Sans', Helvetica, sans-serif;
   font-weight: 600;
 }
+.page_rsvp .main .nf-form-cont .nf-field-description p {
+  margin: 0 0 5px 0;
+}
 .page_rsvp .main .nf-form-cont .nf-field-element p {
   font-size: 18px;
+}
+.page_rsvp .main .nf-form-cont .label-above .nf-field-label {
+  margin-bottom: 0;
+  margin-top: 10px;
 }
 .page_rsvp .main .nf-form-cont .nf-field-label label,
 .page_rsvp .main .nf-form-cont .nf-field-label span {
