@@ -13,15 +13,12 @@
         
     </head>
     <header>
-        <div class="logo"><a href="/">home<img src="" alt="hoppily ever after Tarin and Adam 11 14 25 logo" /></a></div>
+        <div class="logo"><a href="/">home<img src="/wp-content/uploads/2025/05/Hoppily-ever-After.png" alt="hoppily ever after Tarin and Adam 11 14 25 logo" /></a></div>
         <nav>
         <a href="/rsvp">RSVP</a> |
         <a href="/in-the-area">In The Area</a> |
-        <a href="/js/">JavaScript</a> |
-        <a href="/python/">Python</a>
         </nav>
     </header>
-    <nav></nav>
 
     <?php $title = get_the_title(); 
           $title_cleaned = str_replace(' ', '_', $title);?>

@@ -173,7 +173,39 @@ h1 {
         max-width: 400px;
     }
 }
+// NAV
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position:fixed;
+    top: 0;
+    background-color: @ivory;
+    .logo {
+        padding: 10px;
+        img {
+            object-fit: contain;
+            width: 100%;
+            height: 100%;
+            display: block;
+            object-position: center;
+            max-width: 250px;
+        }
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        a {
+            color: @blue;
+            font-weight: 600;
+            text-decoration: none;
+            padding: 20px;
+        }
+    }
 
+}
 
 // RSVP Page
 .page_rsvp {
