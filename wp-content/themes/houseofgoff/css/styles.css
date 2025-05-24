@@ -139,6 +139,9 @@ h1 {
 .main #metaslider-id-184 {
   max-width: 400px;
 }
+.page_rsvp .main .featured_img {
+  display: none;
+}
 @keyframes fade_in {
   0% {
     opacity: 0.5;
