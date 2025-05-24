@@ -149,6 +149,7 @@ header {
   background-color: #F8F5F2;
   z-index: 1;
   max-height: 100px;
+  filter: drop-shadow(2px 0px 6px rgba(0, 0, 0, 0.5));
 }
 header .logo {
   padding: 10px;
@@ -170,7 +171,8 @@ header nav a {
   color: #2C3E50;
   font-weight: 600;
   text-decoration: none;
-  padding: 20px;
+  padding: 25% 20px 0 0;
+  font-family: 'Cinzel Decorative', Times, serif;
 }
 .page_rsvp .main {
   padding: 5%;
