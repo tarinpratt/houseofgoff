@@ -224,6 +224,10 @@ header nav a {
 .page_in_the_area .main .content h2 {
   color: #2C3E50;
 }
+.page_in_the_area .main .content h2,
+.page_in_the_area .main .content p {
+  text-align: center;
+}
 .page_in_the_area .main .content iframe {
   width: 100%;
 }
