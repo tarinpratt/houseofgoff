@@ -220,6 +220,10 @@ header nav a {
   color: #F8F5F2;
   filter: drop-shadow(2px, 4px, 6px, rgba(0, 0, 0, 0.5));
 }
+.page_in_the_area .main .content .to_do_container h2,
+.page_in_the_area .main .content .to_do_container ul li a {
+  color: #F8F5F2;
+}
 .page_rsvp .main {
   padding: 5%;
   background-image: url('/wp-content/uploads/2025/05/AdobeStock_533865523-scaled.jpeg');
