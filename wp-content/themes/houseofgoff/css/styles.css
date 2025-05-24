@@ -152,6 +152,9 @@ h1 {
   padding: 30px;
   border-radius: 8px;
 }
+.page_rsvp .main .nf-form-cont .nf-field-container {
+  margin-bottom: 0;
+}
 .page_rsvp .main .nf-form-cont .nf-form-title,
 .page_rsvp .main .nf-form-cont .nf-field-element h2 {
   color: #F8F5F2;
