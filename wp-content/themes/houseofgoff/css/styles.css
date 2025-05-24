@@ -230,6 +230,7 @@ header nav a {
 .page_in_the_area .main .content .to_do_container ul li a {
   font-weight: 700;
   font-size: 18px;
+  text-decoration: none;
 }
 .page_in_the_area .main .content .to_do_container ul li span {
   font-weight: 400;
