@@ -155,6 +155,8 @@ h1 {
 .page_rsvp .main .nf-form-cont .nf-form-title {
   color: #F8F5F2;
   font-family: 'Cinzel Decorative', Times, serif;
+  text-align: center;
+  font-size: 40px;
 }
 .page_rsvp .main .nf-form-cont .nf-form-fields-required,
 .page_rsvp .main .nf-form-cont .nf-field-label label,
@@ -163,6 +165,10 @@ h1 {
 .page_rsvp .main .nf-form-cont .nf-field-element p,
 .page_rsvp .main .nf-form-cont .ninja-forms-field.nf-element option {
   font-family: 'Mona Sans', Helvetica, sans-serif;
+}
+.page_rsvp .main .nf-form-cont .ninja-forms-field.nf-element {
+  border-radius: 8px;
+  border: 1px solid #F8F5F2;
 }
 @keyframes fade_in {
   0% {
