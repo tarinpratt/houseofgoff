@@ -224,11 +224,15 @@ header nav a {
 .page_in_the_area .main .content .to_do_container ul li a {
   color: #F8F5F2;
 }
+.page_in_the_area .main .content .to_do_container ul li {
+  margin-bottom: 10px;
+}
 .page_in_the_area .main .content .to_do_container ul li a {
   font-weight: 700;
+  font-size: 18px;
 }
 .page_in_the_area .main .content .to_do_container ul li span {
-  font-weight: 500;
+  font-weight: 400;
 }
 .page_rsvp .main {
   padding: 5%;
