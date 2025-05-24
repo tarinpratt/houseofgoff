@@ -179,9 +179,6 @@ header nav a {
   max-width: 800px;
   margin: 0 auto;
 }
-.page_in-the-area .main .featured_img {
-  padding-bottom: calc(700 / 1000 * 100%);
-}
 .page_rsvp .main {
   padding: 5%;
   background-image: url('/wp-content/uploads/2025/05/AdobeStock_533865523-scaled.jpeg');
