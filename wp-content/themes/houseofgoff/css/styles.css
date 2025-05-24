@@ -139,6 +139,9 @@ h1 {
 .main #metaslider-id-184 {
   max-width: 400px;
 }
+.page_rsvp .main {
+  padding: 30px;
+}
 .page_rsvp .main .featured_img {
   display: none;
 }
@@ -148,6 +151,10 @@ h1 {
   margin: 0 auto;
   padding: 30px;
   border-radius: 8px;
+}
+.page_rsvp .main .nf-form-cont .nf-form-title {
+  color: #F8F5F2;
+  font-family: 'Cinzel Decorative', Times, serif;
 }
 @keyframes fade_in {
   0% {
