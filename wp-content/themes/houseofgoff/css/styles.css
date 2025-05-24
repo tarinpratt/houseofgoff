@@ -216,7 +216,7 @@ h1 {
   font-size: 18px;
 }
 .page_rsvp .main .nf-form-cont .label-above .nf-field-label {
-  margin-bottom: 0;
+  margin-bottom: 5px;
   margin-top: 10px;
 }
 .page_rsvp .main .nf-form-cont .nf-field-label label,
