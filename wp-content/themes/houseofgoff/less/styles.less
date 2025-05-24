@@ -221,19 +221,23 @@ header {
             background-size: cover;
         }
         .content {
-            padding: 5%;
+            padding: 0 5%;
             max-width: 800px;
             margin: 0 auto;
             h1 {
                 text-align: center;
                 color: @rust;
                 font-size: 8vh;
+                margin-bottom: 0;
                 @media screen and (min-width: @t_max) {
                     font-size: 60px;
                 }
                 @media screen and (max-width: @m_max) {
                     font-size: 30px;
                 }
+            }
+            h2, p, ul, li, a {
+                font-family: 'Mona Sans', Helvetica, sans-serif;
             }
         }
     }

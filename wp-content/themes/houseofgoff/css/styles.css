@@ -183,7 +183,7 @@ header nav a {
   background-size: cover;
 }
 .page_in_the_area .main .content {
-  padding: 5%;
+  padding: 0 5%;
   max-width: 800px;
   margin: 0 auto;
 }
@@ -191,6 +191,7 @@ header nav a {
   text-align: center;
   color: #B74C2F;
   font-size: 8vh;
+  margin-bottom: 0;
 }
 @media screen and (min-width: 1023px) {
   .page_in_the_area .main .content h1 {
@@ -201,6 +202,13 @@ header nav a {
   .page_in_the_area .main .content h1 {
     font-size: 30px;
   }
+}
+.page_in_the_area .main .content h2,
+.page_in_the_area .main .content p,
+.page_in_the_area .main .content ul,
+.page_in_the_area .main .content li,
+.page_in_the_area .main .content a {
+  font-family: 'Mona Sans', Helvetica, sans-serif;
 }
 .page_rsvp .main {
   padding: 5%;
