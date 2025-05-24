@@ -238,6 +238,13 @@ h1 {
   padding: 20px;
   color: #F8F5F2;
   background-color: #080808;
+  border-color: transparent;
+}
+.page_rsvp .main .nf-form-cont #nf-field-6:hover,
+.page_rsvp .main .nf-form-cont #nf-field-6:active,
+.page_rsvp .main .nf-form-cont #nf-field-6:focus {
+  background-color: #B74C2F;
+  cursor: pointer;
 }
 @keyframes fade_in {
   0% {
