@@ -204,7 +204,8 @@ h1 {
 .page_rsvp .main .nf-form-cont .nf-field-element p,
 .page_rsvp .main .nf-form-cont .ninja-forms-field.nf-element option,
 .page_rsvp .main .nf-form-cont .nf-field-label span,
-.page_rsvp .main .nf-form-cont .nf-field-description p {
+.page_rsvp .main .nf-form-cont .nf-field-description p,
+.page_rsvp .main .nf-form-cont input[type="sumbit"] {
   font-family: 'Mona Sans', Helvetica, sans-serif;
   font-weight: 600;
 }
@@ -231,6 +232,12 @@ h1 {
   border: 1px solid #F8F5F2;
   background-color: #F8F5F2;
   padding: 20px 0;
+}
+.page_rsvp .main .nf-form-cont input[type="sumbit"] {
+  margin-top: 25px;
+  padding: 20px;
+  color: #F8F5F2;
+  background-color: #080808;
 }
 @keyframes fade_in {
   0% {

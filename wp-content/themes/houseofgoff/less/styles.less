@@ -229,7 +229,8 @@ h1 {
             .nf-field-element p,
             .ninja-forms-field.nf-element option,
             .nf-field-label span,
-            .nf-field-description p {
+            .nf-field-description p,
+            input[type="sumbit"] {
                 font-family: 'Mona Sans', Helvetica, sans-serif;
                 font-weight: 600;
             }
@@ -256,6 +257,12 @@ h1 {
                 border: 1px solid @ivory;
                 background-color: @ivory;
                 padding: 20px 0;
+            }
+            input[type="sumbit"] {
+                margin-top: 25px;
+                padding: 20px;
+                color: @ivory;
+                background-color: @black;
             }
         }
     }
