@@ -179,12 +179,13 @@ header nav a {
   margin: 0 auto;
 }
 .page_in_the_area .main .featured_img {
-  padding-bottom: calc(600 / 1000 * 100%);
+  padding-bottom: calc(400 / 1000 * 100%);
   background-size: cover;
+  max-width: 1000px;
 }
 .page_in_the_area .main .content {
   padding: 0 5%;
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 .page_in_the_area .main .content h1 {
@@ -212,6 +213,9 @@ header nav a {
 }
 .page_in_the_area .main .content h2 {
   color: #2C3E50;
+}
+.page_in_the_area .main .content iframe {
+  width: 100%;
 }
 .page_in_the_area .main .content .to_do_container {
   background-color: #2C3E50;
