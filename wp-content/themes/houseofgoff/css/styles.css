@@ -173,7 +173,7 @@ h1 {
 @media screen and (max-width: 768px) {
   .page_rsvp .main .nf-form-cont .nf-form-title,
   .page_rsvp .main .nf-form-cont .nf-field-element h2 {
-    font-size: 18px;
+    font-size: 30px;
   }
 }
 .page_rsvp .main .nf-form-cont .nf-form-title h3,
@@ -190,7 +190,7 @@ h1 {
 }
 @media screen and (max-width: 768px) {
   .page_rsvp .main .nf-form-cont .nf-form-title {
-    font-size: 20px;
+    font-size: 40px;
   }
 }
 .page_rsvp .main .nf-form-cont .nf-form-fields-required {
@@ -209,12 +209,12 @@ h1 {
   font-weight: 600;
 }
 .page_rsvp .main .nf-form-cont .nf-field-element p {
-  font-size: 20px;
+  font-size: 18px;
 }
 .page_rsvp .main .nf-form-cont .nf-field-label label,
 .page_rsvp .main .nf-form-cont .nf-field-label span {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 20px;
 }
 .page_rsvp .main .nf-form-cont .nf-field-description {
   margin-bottom: 20px;
