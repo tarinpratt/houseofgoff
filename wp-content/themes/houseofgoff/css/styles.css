@@ -164,7 +164,7 @@ h1 {
   margin-bottom: 0;
   filter: drop-shadow(2px 4px 6px grey);
 }
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1023px) {
   .page_rsvp .main .nf-form-cont .nf-form-title,
   .page_rsvp .main .nf-form-cont .nf-field-element h2 {
     font-size: 60px;
@@ -183,7 +183,7 @@ h1 {
 .page_rsvp .main .nf-form-cont .nf-form-title {
   font-size: 4vh;
 }
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1023px) {
   .page_rsvp .main .nf-form-cont .nf-form-title {
     font-size: 70px;
   }
