@@ -147,6 +147,8 @@ header {
   position: fixed;
   top: 0;
   background-color: #F8F5F2;
+  z-index: 1;
+  max-height: 100px;
 }
 header .logo {
   padding: 10px;
@@ -157,7 +159,7 @@ header .logo img {
   height: 100%;
   display: block;
   object-position: center;
-  max-width: 150px;
+  max-width: 100px;
 }
 header nav {
   display: flex;
