@@ -4,6 +4,7 @@ setTimeout(() => {
 }, 10000);
 $(function() {
     $('#hamburger').on('click', function() {
+        console.log('clicking');
       $(this).toggleClass('close');
       $('nav').toggleClass('visible');
     });
