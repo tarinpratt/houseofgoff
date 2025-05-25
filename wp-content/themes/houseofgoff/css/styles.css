@@ -199,7 +199,7 @@ header nav a {
 @media screen and (max-width: 768px) {
   .page_our_story.page_in_the_area .main .featured_img,
   .page_our_story.page_our_story .main .featured_img {
-    padding-bottom: calc(100 / 1000 * 100%);
+    padding-bottom: calc(300 / 1000 * 100%);
   }
 }
 .page_in_the_area .main .content,
