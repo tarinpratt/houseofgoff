@@ -317,8 +317,9 @@ header nav a {
   display: block;
   margin: 0 auto;
   color: white;
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
 }
 .page_rsvp .main {
   padding: 5%;
