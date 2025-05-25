@@ -160,16 +160,6 @@ h1 {
             }
         }
     }
-    .detailed_copy {
-        p {
-            font-family: 'Mona Sans', Helvetica, sans-serif;
-            text-align: center;
-            line-height: 1.5;
-            padding: 15px;
-            display: block;
-            margin: 0 auto;
-        }
-    }
     #metaslider-id-184 {
         max-width: 400px;
     }
@@ -285,6 +275,7 @@ header {
 
 // Home Page
 .page_hoppily_ever_after {
+    background-color: @green;
     .main {
         max-width: 1440px;
         margin: 60px auto;
@@ -294,18 +285,26 @@ header {
         }
         .featured_img {
             padding-bottom: calc(400 / 1000 * 100%);
-            background-size: cover;
+            background-size: contain;
             max-width: 500px;
             @media screen and (max-width: @m_max) {
                 padding-bottom: calc(500 / 1000 * 100%);
             }
         }
-        .wedding_logo {
-            position: absolute;
-            top: 45%;
-            left: 50%;
-            width: 170px;
-            transform: translate(-50%, -50%);
+        .detailed_copy {
+            h1, h2 {
+                font-family: 'Cinzel Decorative', Times, serif;
+                color: white;
+            }
+            p {
+                font-family: 'Mona Sans', Helvetica, sans-serif;
+                text-align: center;
+                line-height: 1.5;
+                padding: 15px;
+                display: block;
+                margin: 0 auto;
+                color: white;
+            }
         }
     }
 }
