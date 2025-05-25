@@ -1,7 +1,7 @@
 
 setTimeout(() => {
     console.log("JAVASCRIPT IS WORKING with setttimeout function");
-}, 10000);
+}, 1000);
 $(function() {
     $('#hamburger').on('click', function() {
         console.log('clicking');
