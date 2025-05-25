@@ -286,9 +286,16 @@ header {
 // Home Page
 .page_welcome {
     .main {
+        max-width: 1440px;
+        margin: 60px auto;
         position: relative;
         .featured_img {
-            padding-bottom: calc(400/1000 * 100%);
+            padding-bottom: calc(400 / 1000 * 100%);
+            background-size: cover;
+            max-width: 1000px;
+            @media screen and (max-width: @m_max) {
+                padding-bottom: calc(500 / 1000 * 100%);
+            }
         }
         p .wedding_logo {
             position: absolute;
