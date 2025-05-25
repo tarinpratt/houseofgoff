@@ -254,6 +254,9 @@ header nav a {
 .page_in_the_area .main .content .to_do_container ul li span {
   font-weight: 400;
 }
+.page_welcome .main .featured_img {
+  padding-bottom: calc(400/1000 * 100%);
+}
 .page_rsvp .main {
   padding: 5%;
   background-image: url('/wp-content/uploads/2025/05/AdobeStock_533865523-scaled.jpeg');
