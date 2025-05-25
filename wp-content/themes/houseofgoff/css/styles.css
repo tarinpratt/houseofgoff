@@ -254,8 +254,14 @@ header nav a {
 .page_in_the_area .main .content .to_do_container ul li span {
   font-weight: 400;
 }
+.page_welcome .main {
+  position: relative;
+}
 .page_welcome .main .featured_img {
   padding-bottom: calc(400/1000 * 100%);
+}
+.page_welcome .main .wedding_logo {
+  position: absolute;
 }
 .page_rsvp .main {
   padding: 5%;
