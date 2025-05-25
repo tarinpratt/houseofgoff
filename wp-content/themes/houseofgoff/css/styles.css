@@ -263,7 +263,6 @@ header nav a {
   padding-bottom: calc(400 / 1000 * 100%);
   background-size: contain;
   max-width: 500px;
-  opacity: 1;
   animation-name: fade_in;
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
