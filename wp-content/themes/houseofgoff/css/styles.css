@@ -269,12 +269,6 @@ header nav a {
     padding-bottom: calc(500 / 1000 * 100%);
   }
 }
-.page_hoppily_ever_after .main .detailed_copy h1,
-.page_hoppily_ever_after .main .detailed_copy h2 {
-  font-family: 'Cinzel Decorative', Times, serif;
-  color: white;
-  text-align: center;
-}
 .page_hoppily_ever_after .main .detailed_copy h1 {
   font-size: 10vh;
 }
@@ -300,6 +294,29 @@ header nav a {
 @media screen and (max-width: 768px) {
   .page_hoppily_ever_after .main .detailed_copy h2 {
     font-size: 30px;
+  }
+}
+.page_hoppily_ever_after .main .detailed_copy h1,
+.page_hoppily_ever_after .main .detailed_copy h2 {
+  font-family: 'Cinzel Decorative', Times, serif;
+  color: white;
+  text-align: center;
+}
+.page_hoppily_ever_after .main .detailed_copy h1 span,
+.page_hoppily_ever_after .main .detailed_copy h2 span {
+  font-size: 5vh;
+  display: block;
+}
+@media screen and (min-width: 1023px) {
+  .page_hoppily_ever_after .main .detailed_copy h1 span,
+  .page_hoppily_ever_after .main .detailed_copy h2 span {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .page_hoppily_ever_after .main .detailed_copy h1 span,
+  .page_hoppily_ever_after .main .detailed_copy h2 span {
+    font-size: 20px;
   }
 }
 .page_hoppily_ever_after .main .detailed_copy p {
