@@ -5,5 +5,13 @@
 <script>
   AOS.init();
 </script>
+<script>
+  function onClick(e) {
+    e.preventDefault();
+    grecaptcha.enterprise.ready(async () => {
+      const token = await grecaptcha.enterprise.execute('6Lfy-EgrAAAAAAl19WcXQ3woyz913c_Zz43--sgc', {action: 'LOGIN'});
+    });
+  }
+</script>
 </body>
 </html>
