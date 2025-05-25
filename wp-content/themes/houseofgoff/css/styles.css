@@ -321,6 +321,8 @@ header nav a {
   font-size: 5vh;
   display: block;
   color: #2C3E50;
+  text-decoration: none;
+  filter: none;
 }
 @media screen and (min-width: 1023px) {
   .page_hoppily_ever_after .main .detailed_copy h1 span,
@@ -337,6 +339,10 @@ header nav a {
   .page_hoppily_ever_after .main .detailed_copy h2 span a {
     font-size: 20px;
   }
+}
+.page_hoppily_ever_after .main .detailed_copy h1 span a,
+.page_hoppily_ever_after .main .detailed_copy h2 span a {
+  font-family: 'Cinzel Decorative', Times, serif;
 }
 .page_rsvp .main {
   padding: 5%;
