@@ -131,7 +131,7 @@ h1 {
 }
 .main #metaslider-id-184 {
   max-width: 400px;
-  margin: 20px auto;
+  margin: 20px auto !important;
 }
 header {
   width: 100%;
