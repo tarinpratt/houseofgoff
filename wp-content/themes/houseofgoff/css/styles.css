@@ -271,6 +271,7 @@ header nav a {
 }
 .page_hoppily_ever_after .main .detailed_copy h1 {
   font-size: 10vh;
+  font-family: 'Cinzel Decorative', Times, serif;
   filter: drop-shadow(2px 4px 6px grey);
 }
 @media screen and (min-width: 1023px) {
@@ -284,23 +285,10 @@ header nav a {
   }
 }
 .page_hoppily_ever_after .main .detailed_copy h2 {
-  font-size: 8vh;
-  margin-bottom: 0;
-  filter: drop-shadow(2px 4px 6px grey);
-}
-@media screen and (min-width: 1023px) {
-  .page_hoppily_ever_after .main .detailed_copy h2 {
-    font-size: 60px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .page_hoppily_ever_after .main .detailed_copy h2 {
-    font-size: 30px;
-  }
+  font-family: 'Mona Sans', Helvetica, sans-serif;
 }
 .page_hoppily_ever_after .main .detailed_copy h1,
 .page_hoppily_ever_after .main .detailed_copy h2 {
-  font-family: 'Cinzel Decorative', Times, serif;
   color: white;
   text-align: center;
 }
