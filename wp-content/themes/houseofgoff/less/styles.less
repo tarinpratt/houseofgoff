@@ -289,6 +289,9 @@ header {
         max-width: 1440px;
         margin: 60px auto;
         position: relative;
+        @media screen and (max-width: 780px) {
+            margin: 45px auto;
+        }
         .featured_img {
             padding-bottom: calc(400 / 1000 * 100%);
             background-size: cover;
@@ -297,8 +300,12 @@ header {
                 padding-bottom: calc(500 / 1000 * 100%);
             }
         }
-        p .wedding_logo {
+        .wedding_logo {
             position: absolute;
+            top: 45%;
+            left: 50%;
+            width: 170px;
+            transform: translate(-50%, -50%);
         }
     }
 }

@@ -259,6 +259,11 @@ header nav a {
   margin: 60px auto;
   position: relative;
 }
+@media screen and (max-width: 780px) {
+  .page_hoppily_ever_after .main {
+    margin: 45px auto;
+  }
+}
 .page_hoppily_ever_after .main .featured_img {
   padding-bottom: calc(400 / 1000 * 100%);
   background-size: cover;
@@ -269,8 +274,12 @@ header nav a {
     padding-bottom: calc(500 / 1000 * 100%);
   }
 }
-.page_hoppily_ever_after .main p .wedding_logo {
+.page_hoppily_ever_after .main .wedding_logo {
   position: absolute;
+  top: 45%;
+  left: 50%;
+  width: 170px;
+  transform: translate(-50%, -50%);
 }
 .page_rsvp .main {
   padding: 5%;
