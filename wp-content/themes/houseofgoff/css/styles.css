@@ -271,6 +271,7 @@ header nav a {
 }
 .page_hoppily_ever_after .main .detailed_copy h1 {
   font-size: 10vh;
+  filter: drop-shadow(2px 4px 6px grey);
 }
 @media screen and (min-width: 1023px) {
   .page_hoppily_ever_after .main .detailed_copy h1 {
@@ -285,6 +286,7 @@ header nav a {
 .page_hoppily_ever_after .main .detailed_copy h2 {
   font-size: 8vh;
   margin-bottom: 0;
+  filter: drop-shadow(2px 4px 6px grey);
 }
 @media screen and (min-width: 1023px) {
   .page_hoppily_ever_after .main .detailed_copy h2 {
@@ -306,7 +308,7 @@ header nav a {
 .page_hoppily_ever_after .main .detailed_copy h2 span {
   font-size: 5vh;
   display: block;
-  color: #B74C2F;
+  color: #2C3E50;
 }
 @media screen and (min-width: 1023px) {
   .page_hoppily_ever_after .main .detailed_copy h1 span,
