@@ -190,6 +190,18 @@ header nav a {
     padding-bottom: calc(500 / 1000 * 100%);
   }
 }
+.page_our_story.page_in_the_area .main .featured_img,
+.page_our_story.page_our_story .main .featured_img {
+  padding-bottom: calc(200 / 1000 * 100%);
+  background-size: contain;
+  max-width: 1000px;
+}
+@media screen and (max-width: 768px) {
+  .page_our_story.page_in_the_area .main .featured_img,
+  .page_our_story.page_our_story .main .featured_img {
+    padding-bottom: calc(100 / 1000 * 100%);
+  }
+}
 .page_in_the_area .main .content,
 .page_our_story .main .content {
   padding: 0 5%;
