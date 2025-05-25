@@ -448,6 +448,9 @@ header nav a {
   background-color: #B74C2F;
   cursor: pointer;
 }
+.page_rsvp .main .nf-form-cont input[type="checkbox"] {
+  padding: 0;
+}
 @keyframes fade_in {
   0% {
     opacity: 0.5;
