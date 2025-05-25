@@ -287,7 +287,7 @@ header nav.mobile.visible {
 @media screen and (max-width: 768px) {
   .page_our_story.page_in_the_area .main,
   .page_our_story.page_our_story .main {
-    margin: 80px auto 0;
+    margin: 120px auto 0;
   }
 }
 .page_in_the_area .main .featured_img,
