@@ -288,6 +288,7 @@ header nav a {
   color: white;
   text-align: center;
   font-family: 'Cinzel Decorative', Times, serif;
+  margin: 0 auto;
 }
 .page_hoppily_ever_after .main .detailed_copy h1 span,
 .page_hoppily_ever_after .main .detailed_copy h2 span {
@@ -316,6 +317,8 @@ header nav a {
   display: block;
   margin: 0 auto;
   color: white;
+  font-size: 20px;
+  font-weight: 700;
 }
 .page_rsvp .main {
   padding: 5%;
