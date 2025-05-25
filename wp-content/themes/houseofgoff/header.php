@@ -16,10 +16,22 @@
     <header>
         <div class="header_container">
         <div class="logo"><a href="/"><img src="/wp-content/uploads/2025/05/Hoppily-ever-After_circular-1.png" alt="hoppily ever after Tarin and Adam 11 14 25 logo" /></a></div>
-        <nav>
-        <a href="/rsvp">RSVP</a>
-        <a href="/in-the-area">In The Area</a>
-        <a href="/our-story">Our Story</a>
+        <nav class="desktop">
+            <a href="/rsvp">RSVP</a>
+            <a href="/in-the-area">In The Area</a>
+            <a href="/our-story">Our Story</a>
+        </nav>
+        <div id="hamburger" class="close mobile">
+            <span></span>
+            <span></span>
+            <span></span>  
+        </div>
+        <nav class="mobile">
+            <ul>
+                <li><a href="/rsvp">RSVP</a></li>
+                <li><a href="/in-the-area">In The Area</a></li>
+                <li><a href="/our-story">Our Story</a></li>
+            </ul>
         </nav>
         </div>
     </header>

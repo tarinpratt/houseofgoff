@@ -162,9 +162,19 @@ header .logo img {
   max-width: 70px;
 }
 header nav {
-  display: flex;
+  display: none;
   flex-direction: row;
   justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  header nav.mobile {
+    display: flex;
+  }
+}
+@media screen and (min-width: 768px) {
+  header nav.desktop {
+    display: flex;
+  }
 }
 header nav a {
   color: #2C3E50;
@@ -172,6 +182,102 @@ header nav a {
   text-decoration: none;
   padding: 11% 20px 0 0;
   font-family: 'Cinzel Decorative', Times, serif;
+}
+header #hamburger {
+  height: 50px;
+  width: 50px;
+  background: #F8F5F2;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0);
+  transition: all 0.2s ease;
+  z-index: 9999;
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  header #hamburger {
+    display: block;
+  }
+}
+header #hamburger:hover {
+  background: #ffffff;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  transform: scale(1.1);
+  transition: all 0.2s ease;
+}
+header #hamburger span {
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 28px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #2C3E50;
+  border-radius: 10px;
+  transition: all 0.15s ease;
+}
+header #hamburger span:first-child {
+  top: 17px;
+}
+header #hamburger span:nth-child(2) {
+  top: 25px;
+}
+header #hamburger span:last-child {
+  top: 33px;
+}
+header #hamburger.close {
+  top: 10px;
+  right: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+}
+header #hamburger.close span:first-child {
+  top: 15px;
+  transform: translate(-14px, 10px) rotate(135deg);
+}
+header #hamburger.close span:nth-child(2) {
+  left: -20px;
+  opacity: 0;
+}
+header #hamburger.close span:last-child {
+  top: 15px;
+  transform: translate(-14px, 10px) rotate(-135deg);
+}
+header nav.mobile {
+  height: 100vh;
+  right: 0;
+  background: #F8F5F2;
+  color: #2C3E50;
+  width: 200px;
+  box-shadow: 0 1px 20px rgba(0, 0, 0, 0.25);
+  position: relative;
+  z-index: 1;
+  transform: translateX(200px);
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+header nav.mobile ul {
+  list-style: none;
+  padding: 0;
+}
+header nav.mobile ul li {
+  width: 100%;
+  transition: all 0.15s ease;
+}
+header nav.mobile ul li a {
+  display: block;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+}
+header nav.mobile ul li:hover {
+  transition: all 0.15s ease;
+}
+header nav.mobile.visible {
+  transform: translateX(0);
+  opacity: 1;
 }
 .page_in_the_area .main,
 .page_our_story .main {
