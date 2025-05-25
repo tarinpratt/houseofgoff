@@ -131,6 +131,7 @@ h1 {
 }
 .main #metaslider-id-184 {
   max-width: 400px;
+  margin: 20px auto;
 }
 header {
   width: 100%;
@@ -281,6 +282,13 @@ header nav a {
   font-size: 30px;
   font-weight: 600;
   letter-spacing: 0.8px;
+}
+@media screen and (max-width: 768px) {
+  .page_hoppily_ever_after .main .detailed_copy p,
+  .page_hoppily_ever_after .main .detailed_copy a {
+    font-size: 22px;
+    padding: 0;
+  }
 }
 .page_hoppily_ever_after .main .detailed_copy a {
   filter: drop-shadow(2px 4px 6px grey);

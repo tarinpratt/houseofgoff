@@ -162,6 +162,7 @@ h1 {
     }
     #metaslider-id-184 {
         max-width: 400px;
+        margin: 20px auto;
     }
 }
 // NAV
@@ -303,6 +304,10 @@ header {
                 font-size: 30px;
                 font-weight: 600;
                 letter-spacing: 0.8px;
+                @media screen and (max-width: @m_max) {
+                    font-size: 22px;
+                    padding: 0;
+                }
             }
             a {
                 filter: drop-shadow(2px 4px 6px grey);
