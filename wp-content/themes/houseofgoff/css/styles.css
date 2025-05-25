@@ -449,7 +449,7 @@ header nav a {
   cursor: pointer;
 }
 .page_rsvp .main .nf-form-cont input[type="checkbox"] {
-  padding: 0;
+  padding: 0 !important;
 }
 @keyframes fade_in {
   0% {
