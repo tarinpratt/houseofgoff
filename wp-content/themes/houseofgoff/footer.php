@@ -5,14 +5,5 @@
 <script>
   AOS.init();
 </script>
-<script>
-    $(function() {
-    $('#hamburger').on('click', function() {
-        console.log('clicking');
-      $(this).toggleClass('close');
-      $('nav').toggleClass('visible');
-    });
-  });
-</script>
 </body>
 </html>
