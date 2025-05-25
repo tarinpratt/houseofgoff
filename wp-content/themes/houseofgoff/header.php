@@ -19,6 +19,7 @@
         <nav>
         <a href="/rsvp">RSVP</a>
         <a href="/in-the-area">In The Area</a>
+        <a href="/our-story">Our Story</a>
         </nav>
         </div>
     </header>
