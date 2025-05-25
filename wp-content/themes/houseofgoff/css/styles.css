@@ -279,6 +279,9 @@ header nav.mobile.visible {
   transform: translateX(0);
   opacity: 1;
 }
+.page_donate .main {
+  margin: 100px auto;
+}
 .page_donate .main .featured_img {
   display: none;
 }
