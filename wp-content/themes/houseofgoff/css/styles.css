@@ -306,6 +306,7 @@ header nav a {
 .page_hoppily_ever_after .main .detailed_copy h2 span {
   font-size: 5vh;
   display: block;
+  color: #B74C2F;
 }
 @media screen and (min-width: 1023px) {
   .page_hoppily_ever_after .main .detailed_copy h1 span,
