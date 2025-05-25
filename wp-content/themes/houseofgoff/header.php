@@ -22,7 +22,7 @@
             <a href="/in-the-area">In The Area</a>
             <a href="/our-story">Our Story</a>
         </nav>
-        <div id="hamburger" class="close mobile">
+        <div id="hamburger" class="mobile">
             <span></span>
             <span></span>
             <span></span>  
