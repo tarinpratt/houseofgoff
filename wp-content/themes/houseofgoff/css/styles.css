@@ -254,22 +254,22 @@ header nav a {
 .page_in_the_area .main .content .to_do_container ul li span {
   font-weight: 400;
 }
-.page_welcome .main {
+.page_hoppily_ever_after .main {
   max-width: 1440px;
   margin: 60px auto;
   position: relative;
 }
-.page_welcome .main .featured_img {
+.page_hoppily_ever_after .main .featured_img {
   padding-bottom: calc(400 / 1000 * 100%);
   background-size: cover;
   max-width: 1000px;
 }
 @media screen and (max-width: 768px) {
-  .page_welcome .main .featured_img {
+  .page_hoppily_ever_after .main .featured_img {
     padding-bottom: calc(500 / 1000 * 100%);
   }
 }
-.page_welcome .main p .wedding_logo {
+.page_hoppily_ever_after .main p .wedding_logo {
   position: absolute;
 }
 .page_rsvp .main {
