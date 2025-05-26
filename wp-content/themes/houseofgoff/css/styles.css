@@ -421,6 +421,7 @@ header nav.mobile.visible {
 .page_stays.page_stays .main .content .to_do_container a {
   text-decoration: none;
   font-weight: 700;
+  color: #F8F5F2;
 }
 .page_in_the_area .main .content .to_do_container ul li,
 .page_our_story .main .content .to_do_container ul li,
