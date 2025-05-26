@@ -21,6 +21,7 @@
             <a href="/rsvp">RSVP</a>
             <a href="/in-the-area">In The Area</a>
             <a href="/our-story">Our Story</a>
+            <a href="/donate">Registry</a>
         </nav>
         <div id="hamburger" class="mobile">
             <span></span>
@@ -32,6 +33,7 @@
                 <li><a href="/rsvp">RSVP</a></li>
                 <li><a href="/in-the-area">In The Area</a></li>
                 <li><a href="/our-story">Our Story</a></li>
+                <li><a href="/donate">Donate/Registry</a></li>
             </ul>
         </nav>
         </div>
