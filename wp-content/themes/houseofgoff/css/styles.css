@@ -281,6 +281,23 @@ header nav.mobile.visible {
   opacity: 1;
   display: block;
 }
+footer {
+  background-color: #F8F5F2;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+footer p {
+  font-family: 'Mona Sans', Helvetica, sans-serif;
+  color: #2C3E50;
+}
+footer .footer_logo {
+  max-width: 50px;
+  width: 100%;
+  height: auto;
+}
 .page_donate .main {
   margin: 100px auto;
 }
