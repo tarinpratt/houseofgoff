@@ -586,6 +586,31 @@ footer .footer_logo {
   font-family: 'Cinzel Decorative', Times, serif;
   margin-top: 20px;
 }
+.page_hoppily_ever_after .main .to_do_container {
+  background-color: #2C3E50;
+  border-radius: 8px;
+  padding: 5%;
+  filter: drop-shadow(2px, 4px, 6px, rgba(0, 0, 0, 0.5));
+}
+.page_hoppily_ever_after .main .to_do_container h2,
+.page_hoppily_ever_after .main .to_do_container ul li a {
+  color: #F8F5F2;
+}
+.page_hoppily_ever_after .main .to_do_container ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.page_hoppily_ever_after .main .to_do_container ul li {
+  margin-bottom: 10px;
+}
+.page_hoppily_ever_after .main .to_do_container ul li a {
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: 'Cinzel Decorative', Times, serif;
+}
 .page_rsvp .main {
   padding: 5%;
   background-image: url('/wp-content/uploads/2025/05/AdobeStock_533865523-scaled.jpeg');
