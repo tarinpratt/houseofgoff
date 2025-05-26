@@ -284,7 +284,7 @@ header nav.mobile.visible {
 footer {
   background-color: #F8F5F2;
   text-align: center;
-  position: fixed;
+  padding: 10px 0;
   left: 0;
   bottom: 0;
   width: 100%;
