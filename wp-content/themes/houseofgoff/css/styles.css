@@ -288,48 +288,56 @@ header nav.mobile.visible {
   display: none;
 }
 .page_in_the_area .main,
-.page_our_story .main {
+.page_our_story .main,
+.page_stays .main {
   max-width: 1440px;
   margin: 60px auto 0;
 }
 @media screen and (max-width: 768px) {
   .page_our_story.page_in_the_area .main,
-  .page_our_story.page_our_story .main {
+  .page_our_story.page_our_story .main,
+  .page_our_story.page_stays .main {
     margin: 120px auto 0;
   }
 }
 .page_in_the_area .main .featured_img,
-.page_our_story .main .featured_img {
+.page_our_story .main .featured_img,
+.page_stays .main .featured_img {
   padding-bottom: calc(400 / 1000 * 100%);
   background-size: cover;
   max-width: 1000px;
 }
 @media screen and (max-width: 768px) {
   .page_in_the_area .main .featured_img,
-  .page_our_story .main .featured_img {
+  .page_our_story .main .featured_img,
+  .page_stays .main .featured_img {
     padding-bottom: calc(500 / 1000 * 100%);
   }
 }
 .page_our_story.page_in_the_area .main .featured_img,
-.page_our_story.page_our_story .main .featured_img {
+.page_our_story.page_our_story .main .featured_img,
+.page_our_story.page_stays .main .featured_img {
   padding-bottom: calc(200 / 1000 * 100%);
   background-size: contain;
   max-width: 1000px;
 }
 @media screen and (max-width: 768px) {
   .page_our_story.page_in_the_area .main .featured_img,
-  .page_our_story.page_our_story .main .featured_img {
+  .page_our_story.page_our_story .main .featured_img,
+  .page_our_story.page_stays .main .featured_img {
     padding-bottom: calc(300 / 1000 * 100%);
   }
 }
 .page_in_the_area .main .content,
-.page_our_story .main .content {
+.page_our_story .main .content,
+.page_stays .main .content {
   padding: 0 5%;
   max-width: 1000px;
   margin: 0 auto;
 }
 .page_in_the_area .main .content h1,
-.page_our_story .main .content h1 {
+.page_our_story .main .content h1,
+.page_stays .main .content h1 {
   text-align: center;
   color: #B74C2F;
   font-size: 8vh;
@@ -337,44 +345,56 @@ header nav.mobile.visible {
 }
 @media screen and (min-width: 1023px) {
   .page_in_the_area .main .content h1,
-  .page_our_story .main .content h1 {
+  .page_our_story .main .content h1,
+  .page_stays .main .content h1 {
     font-size: 60px;
   }
 }
 @media screen and (max-width: 768px) {
   .page_in_the_area .main .content h1,
-  .page_our_story .main .content h1 {
+  .page_our_story .main .content h1,
+  .page_stays .main .content h1 {
     font-size: 30px;
   }
 }
 .page_in_the_area .main .content h2,
 .page_our_story .main .content h2,
+.page_stays .main .content h2,
 .page_in_the_area .main .content p,
 .page_our_story .main .content p,
+.page_stays .main .content p,
 .page_in_the_area .main .content ul,
 .page_our_story .main .content ul,
+.page_stays .main .content ul,
 .page_in_the_area .main .content li,
 .page_our_story .main .content li,
+.page_stays .main .content li,
 .page_in_the_area .main .content a,
-.page_our_story .main .content a {
+.page_our_story .main .content a,
+.page_stays .main .content a {
   font-family: 'Mona Sans', Helvetica, sans-serif;
 }
 .page_in_the_area .main .content h2,
-.page_our_story .main .content h2 {
+.page_our_story .main .content h2,
+.page_stays .main .content h2 {
   color: #2C3E50;
 }
 .page_in_the_area .main .content h2,
 .page_our_story .main .content h2,
+.page_stays .main .content h2,
 .page_in_the_area .main .content p,
-.page_our_story .main .content p {
+.page_our_story .main .content p,
+.page_stays .main .content p {
   text-align: center;
 }
 .page_in_the_area .main .content iframe,
-.page_our_story .main .content iframe {
+.page_our_story .main .content iframe,
+.page_stays .main .content iframe {
   width: 100%;
 }
 .page_in_the_area .main .content .to_do_container,
-.page_our_story .main .content .to_do_container {
+.page_our_story .main .content .to_do_container,
+.page_stays .main .content .to_do_container {
   background-color: #2C3E50;
   border-radius: 8px;
   padding: 5%;
@@ -383,22 +403,27 @@ header nav.mobile.visible {
 }
 .page_in_the_area .main .content .to_do_container h2,
 .page_our_story .main .content .to_do_container h2,
+.page_stays .main .content .to_do_container h2,
 .page_in_the_area .main .content .to_do_container ul li a,
-.page_our_story .main .content .to_do_container ul li a {
+.page_our_story .main .content .to_do_container ul li a,
+.page_stays .main .content .to_do_container ul li a {
   color: #F8F5F2;
 }
 .page_in_the_area .main .content .to_do_container ul li,
-.page_our_story .main .content .to_do_container ul li {
+.page_our_story .main .content .to_do_container ul li,
+.page_stays .main .content .to_do_container ul li {
   margin-bottom: 10px;
 }
 .page_in_the_area .main .content .to_do_container ul li a,
-.page_our_story .main .content .to_do_container ul li a {
+.page_our_story .main .content .to_do_container ul li a,
+.page_stays .main .content .to_do_container ul li a {
   font-weight: 700;
   font-size: 18px;
   text-decoration: none;
 }
 .page_in_the_area .main .content .to_do_container ul li span,
-.page_our_story .main .content .to_do_container ul li span {
+.page_our_story .main .content .to_do_container ul li span,
+.page_stays .main .content .to_do_container ul li span {
   font-weight: 400;
 }
 .page_hoppily_ever_after {
