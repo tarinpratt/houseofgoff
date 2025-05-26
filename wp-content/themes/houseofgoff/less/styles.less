@@ -347,6 +347,11 @@ header {
                 margin: 120px auto 0;
             }
         }
+        .page_stays& {
+            @media screen and (max-width: @m_max) {
+                margin: 40px auto 0;
+            }
+        }
         .featured_img {
             padding-bottom: calc(400 / 1000 * 100%);
             background-size: cover;
@@ -401,6 +406,12 @@ header {
                 filter: drop-shadow(2px, 4px, 6px, rgba(0,0,0,0.5));
                 h2, ul li a {
                     color: @ivory;
+                }
+                a {
+                    .page_stays& {
+                        text-decoration: none;
+                        font-weight: 700;
+                    }
                 }
                 ul li {
                     margin-bottom: 10px;

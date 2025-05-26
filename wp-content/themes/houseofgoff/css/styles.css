@@ -300,6 +300,13 @@ header nav.mobile.visible {
     margin: 120px auto 0;
   }
 }
+@media screen and (max-width: 768px) {
+  .page_stays.page_in_the_area .main,
+  .page_stays.page_our_story .main,
+  .page_stays.page_stays .main {
+    margin: 40px auto 0;
+  }
+}
 .page_in_the_area .main .featured_img,
 .page_our_story .main .featured_img,
 .page_stays .main .featured_img {
@@ -408,6 +415,12 @@ header nav.mobile.visible {
 .page_our_story .main .content .to_do_container ul li a,
 .page_stays .main .content .to_do_container ul li a {
   color: #F8F5F2;
+}
+.page_stays.page_in_the_area .main .content .to_do_container a,
+.page_stays.page_our_story .main .content .to_do_container a,
+.page_stays.page_stays .main .content .to_do_container a {
+  text-decoration: none;
+  font-weight: 700;
 }
 .page_in_the_area .main .content .to_do_container ul li,
 .page_our_story .main .content .to_do_container ul li,
