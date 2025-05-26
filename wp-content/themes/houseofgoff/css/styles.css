@@ -590,6 +590,7 @@ footer .footer_logo {
   background-color: #2C3E50;
   border-radius: 8px;
   padding: 5%;
+  margin-top: 30px;
   filter: drop-shadow(2px, 4px, 6px, rgba(0, 0, 0, 0.5));
 }
 .page_hoppily_ever_after .main .to_do_container h2,
