@@ -323,12 +323,16 @@ footer .footer_logo {
   .page_stays.page_in_the_area .main,
   .page_stays.page_our_story .main,
   .page_stays.page_stays .main,
-  .page_stays.page_details .main,
+  .page_stays.page_details .main {
+    margin: 40px auto 0;
+  }
+}
+@media screen and (max-width: 768px) {
   .page_details.page_in_the_area .main,
   .page_details.page_our_story .main,
   .page_details.page_stays .main,
   .page_details.page_details .main {
-    margin: 40px auto 0;
+    margin: 60px auto 0;
   }
 }
 .page_in_the_area .main .featured_img,
