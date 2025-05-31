@@ -690,6 +690,11 @@ footer .footer_logo {
   font-family: 'Mona Sans', Helvetica, sans-serif;
   font-weight: 600;
 }
+.page_rsvp .main .nf-form-cont .nf-response-msg {
+  font-family: 'Mona Sans', Helvetica, sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
 .page_rsvp .main .nf-form-cont .nf-field-description p {
   margin: 0 0 5px 0;
 }
