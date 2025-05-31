@@ -732,7 +732,8 @@ footer .footer_logo {
   background-color: #B74C2F;
   cursor: pointer;
 }
-.page_rsvp .main .nf-form-cont input[type="checkbox"] {
+.page_rsvp .main .nf-form-cont input[type="checkbox"],
+.page_rsvp .main .nf-form-cont input[type="radio"] {
   padding: 0 !important;
 }
 @keyframes fade_in {
