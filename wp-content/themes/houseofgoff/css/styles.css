@@ -331,13 +331,17 @@ footer .footer_logo {
   .page_details.page_our_story .main,
   .page_details.page_stays .main,
   .page_details.page_details .main,
-  .page_details.page_donate .main,
+  .page_details.page_donate .main {
+    margin: 80px auto 0;
+  }
+}
+@media screen and (max-width: 768px) {
   .page_donate.page_in_the_area .main,
   .page_donate.page_our_story .main,
   .page_donate.page_stays .main,
   .page_donate.page_details .main,
   .page_donate.page_donate .main {
-    margin: 80px auto 0;
+    margin: 100px auto 0;
   }
 }
 .page_in_the_area .main .featured_img,
