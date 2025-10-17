@@ -12,6 +12,7 @@ $(function() {
 
   // Set the target date and time
   const targetDate = new Date("November 14, 2025 16:00:00").getTime();
+  console.log('target date', targetDate);
 
   // Update the countdown every second
   const countdown = setInterval(() => {
